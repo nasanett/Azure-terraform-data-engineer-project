@@ -6,7 +6,7 @@ variable "azure_region" {
 variable "create_resource_group" {
   type        = bool
   description = "Is resource group managed by this script?"
-  default     = true
+  default     = false
 }
 
 variable "resource_group_name" {
